@@ -10,11 +10,11 @@ activate env (https://github.com/NLeSC/root-conda-recipes/issues/29)
 
 
 NOTES FOR ME--------------
-THIS WORKS:
-micromamba activate deepsf
-export JTSF_CMSSW_SETUP="NONE"
-source setup.sh
-law index --verbose 
+THIS WORKS: \\
+micromamba activate deepsf \\
+export JTSF_CMSSW_SETUP="NONE" \\
+source setup.sh \\
+law index --verbose \\ 
 -----------------------------
 PROBLEM with CMSSW maybe make sure to setup CMSSW after installing root and python. If the CMSSW is already setup it might be compiled with different compilers!
 SOLUTION:
