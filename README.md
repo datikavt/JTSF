@@ -7,6 +7,7 @@ activate env (https://github.com/NLeSC/root-conda-recipes/issues/29)
 3) pip install -r requirements.txt
 4)
 
+PROBLEM with CMSSW maybe make sure to setup CMSSW after installing root and python. If the CMSSW is already setup it might be compiled with different compilers!
 Notes
 if Root issue
 try source $ROOTSYS/bin/thisroot.sh
