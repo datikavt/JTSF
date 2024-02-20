@@ -13,3 +13,5 @@ try source $ROOTSYS/bin/thisroot.sh
 
 WARNING this removes the existing root and python! and reinstalls python 3.9.18
 micromamba install -c conda-forge gfal2 gfal2-util
+Check your root config python version
+root-config --python-version
